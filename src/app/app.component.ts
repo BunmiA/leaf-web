@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'leaf-web';
+  title = 'Home';
+
+  updateTitle(title) {
+    console.log('changing title to ', title);
+    this.title = title;
+  }
+
 }
