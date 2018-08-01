@@ -1,6 +1,7 @@
 {
   "name": "leaf-web",
   "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
@@ -29,7 +30,8 @@
     "hammerjs": "^2.0.8",
     "node-sass": "^4.9.2",
     "rxjs": "^6.0.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "typescript": "~2.7.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
