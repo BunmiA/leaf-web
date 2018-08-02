@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -12,5 +14,6 @@ export class AppComponent {
     console.log('changing title to ', title);
     this.title = title;
   }
+
 
 }

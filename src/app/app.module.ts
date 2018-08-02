@@ -23,7 +23,7 @@ const appRoutes: Routes = [
   { path: 'home', component: LeafHomeComponent },
   { path: 'aboutus',      component: LeafAboutUsComponent },
   { path: 'contactus', component: LeafContactUsComponent },
-  { path: 'getinvolved',      component: LeafContactUsComponent },
+  { path: 'getinvolved',      component: LeafGetInvolvedComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
   // { path: '**', component: PageNotFoundComponent }
 ];
