@@ -43,7 +43,7 @@ $dark-theme:   mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
 
 
 
-@include mat-card-theme($dark-theme);
+//@include mat-card-theme($dark-theme);
 
 .greenCard {
   background: mat-color($leaf-app-primary, 500, 1);
@@ -51,5 +51,5 @@ $dark-theme:   mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
 }
 
 .active-link {
-  background: mat-color($leaf-app-accent) !important;
+  background: mat-color($leaf-app-accent,700) !important;
 }

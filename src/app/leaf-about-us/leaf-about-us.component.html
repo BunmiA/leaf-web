@@ -1,3 +1,102 @@
-<p>
-  leaf-about-us works!
-</p>
+<!--<mat-card>-->
+  <!--LEAF (Leave Entertainment Alone For now) is a browser extension that helps you stay conscious of what you are consuming on websites for now it focuses on Youtube and reminds you of your primary objectives of being on the site to make your consumption on the web more deliberate and less reliant on recommendation algorithms.-->
+
+
+<!--</mat-card>-->
+
+<!--<mat-grid-list cols="2" rowHeight="200px">-->
+  <!--<mat-grid-tile  [colspan]="2" [rowspan]="3">-->
+    <!--<mat-divider>-->
+      <!--What is LEAF-->
+    <!--</mat-divider>-->
+    <!--<mat-card class="dashboard-card">-->
+      <!--<mat-card-header>-->
+        <!--<mat-card-title>-->
+          <!--<mat-divider>-->
+          <!--What is LEAF-->
+            <!--</mat-divider>-->
+
+
+        <!--</mat-card-title>-->
+      <!--</mat-card-header>-->
+      <!--<mat-card-content class="dashboard-card-content">-->
+        <!--<div>-->
+          <!--LEAF (Leave Entertainment Alone For now) is a browser extension that helps you stay conscious of what-->
+          <!--you are consuming on websites for now it focuses on Youtube and reminds you of your primary objectives of-->
+          <!--being on the site to make your consumption on the web more deliberate and less reliant on recommendation algorithms.-->
+
+
+        <!--</div>-->
+      <!--</mat-card-content>-->
+    <!--</mat-card>-->
+  <!--</mat-grid-tile>-->
+
+
+
+<!--</mat-grid-list>-->
+
+<mat-card>
+  <mat-card-title>
+    What is Leaf
+  </mat-card-title>
+  <mat-card-content>
+  LEAF (Leave Entertainment Alone For now) is a browser extension that helps you stay conscious of what
+  you are consuming on websites for now it focuses on Youtube and reminds you of your primary objectives of
+  being on the site to make your consumption on the web more deliberate and less reliant on recommendation algorithms.
+  </mat-card-content>
+
+</mat-card>
+
+<h4 style="padding-left: 2%"> More On LEAF</h4>
+
+<mat-accordion>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        How does it work?
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <ul>
+      <li>
+        <p> <b>Reminders:</b> LEAF allows users to enter their primary objective for visiting youtube.
+          It then gives users the option to get a reminder, specifying the purpose of their initial visit to the site ,
+          especially when the content they are currently viewing has drifted from that initial agenda.</p>
+      </li>
+      <li>
+        <p> <b>Metrics and Insight:</b> LEAF will provide users with a monitoring dashboard that displays the user's usage
+          patterns to provide a straightforward and easy to understand tally of the categories of content and the time spent on each.
+          It also aims to give the users a view on the amount of viewed content that was considered deliberately and via a
+          recommendation by looking at the user journey to arrive at the video such as if the video was selected via a user
+          search or from a click on the recommendation list offered by Youtube.</p>
+      </li>
+      <li>
+        <p><b>Content blockers:</b> LEAF also offers a cartoon-like and game-like content blocker that enables a user to
+          block Youtube when viewing content that falls under a user-defined set of categories.</p>
+      </li>
+    </ul>
+
+  </mat-expansion-panel>
+  <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        MockUps
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+<mat-card>
+  <img src="../../../mockups/Option Open.png">
+</mat-card>
+    <mat-card>
+      <img src="../../../mockups/Dashboard.png">
+    </mat-card>
+
+    <mat-card>
+      <img src="../../../mockups/Blocker_activated_example.png">
+    </mat-card>
+
+
+  </mat-expansion-panel>
+</mat-accordion>
+
+

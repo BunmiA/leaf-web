@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
   MatButtonModule, MatCheckboxModule, MatToolbarModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule,
-  MatGridListModule, MatMenuModule, MatButtonToggle, MatButtonToggleGroup, MatButtonToggleModule
+  MatGridListModule, MatMenuModule, MatButtonToggle, MatButtonToggleGroup, MatButtonToggleModule, MatTreeModule, MatAccordionDisplayMode,
+  MatExpansionModule
 } from '@angular/material';
 import { LeafSideComponent } from './leaf-side/leaf-side.component';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -55,7 +56,8 @@ const appRoutes: Routes = [
     MatButtonToggleModule,
     MatCardModule,
     MatGridListModule,
-    MatMenuModule
+    MatMenuModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
