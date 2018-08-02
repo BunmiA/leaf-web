@@ -7,8 +7,8 @@ app.use(express.static(__dirname + '/dist'));
 // Heroku port
 app.listen(process.env.PORT || 8080);
 
-app.use('/*', function(req,res) {
-  // res.sendfile(__dirname + '/src/index.html');
-
-  res.sendFile(path.join(__dirname+'/dist/src/index.html'));
-});
+// app.use('/*', function(req,res) {
+//   // res.sendfile(__dirname + '/src/index.html');
+//
+//   res.sendFile(__dirname+'/dist/src/index.html');
+// });
