@@ -12,7 +12,8 @@ app.use(express.static(distDir));
 // Heroku port
 app.listen(process.env.PORT || 8080);
 
-
-
-
-
+// // 404 catch
+app.all('*', (req, res) => {
+  console.log(`[TRACE] Server 404 request: ${req.originalUrl}`);
+  res.status(200).sendFile(distDir);
+});
