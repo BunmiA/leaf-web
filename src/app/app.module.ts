@@ -60,7 +60,7 @@ const appRoutes: Routes = [
     MatMenuModule,
     MatExpansionModule
   ],
-  providers: [Location],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {

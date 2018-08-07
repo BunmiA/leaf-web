@@ -7,10 +7,10 @@
   <mat-toolbar color="primary" class="mat-elevation-z19">
     <span > Leaf </span>
     <img src="../assets/leaf_16.png">
-    <a routerLink="/home" routerLinkActive="active" [class.active-link]="title==='home'" (click)="updateTitle('home')" mat-button>Home</a>
-    <a routerLink="/aboutus" [class.active-link]="title==='aboutus'" (click)="updateTitle('aboutus')" mat-button>About Us</a>
-    <a routerLink="/contactus" [class.active-link]="title==='contactus'" (click)="updateTitle('contactus')" mat-button>Contact Us</a>
-    <a routerLink="/getinvolved"  [class.active-link]="title==='getinvolved'"  (click)="updateTitle('getinvolved')" mat-button>Get Involved</a>
+    <a routerLink="/home" routerLinkActive="active-link" mat-button>Home</a>
+    <a routerLink="/aboutus" routerLinkActive="active-link" mat-button>About Us</a>
+    <a routerLink="/contactus" routerLinkActive="active-link" mat-button>Contact Us</a>
+    <a routerLink="/getinvolved"  routerLinkActive="active-link" mat-button>Get Involved</a>
   </mat-toolbar>
   <main>
     <router-outlet></router-outlet>
